@@ -73,7 +73,7 @@ https://github.com/stefanocudini/leaflet-search
         }
 
         var customLayer = L.geoJson(null, {style: style});
-        var usLayer = omnivore.topojson('/data/taz.json', null, customLayer).addTo(map);
+        var usLayer = omnivore.topojson('data/taz.json', null, customLayer).addTo(map);
 
     });
 
